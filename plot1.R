@@ -2,7 +2,7 @@
 
 
 #  Read Data 
-NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
+NEI <- readRDS("./Exploratory Data Project 2/summarySCC_PM25.rds")
 
 #  Create Plot-Data
 pd <- aggregate(NEI[c("Emissions")], list(year = NEI$year), sum)
