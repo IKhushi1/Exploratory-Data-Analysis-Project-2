@@ -1,9 +1,9 @@
-Plot 4
+#Plot 4
 
 
 #  Read Data 
-NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
-SRC <- readRDS("./exdata-data-NEI_dataSource_Classification_Code.rds")
+NEI <- readRDS("./Exploratory Data Project 2/summarySCC_PM25.rds")
+SRC <- readRDS("./Exploratory Data Project 2/Source_Classification_Code.rds")
 
 #  Create Data
 CC <- grep("coal",SRC$EI.Sector,value=T,ignore.case=T)
