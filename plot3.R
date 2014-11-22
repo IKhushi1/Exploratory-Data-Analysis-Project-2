@@ -7,6 +7,7 @@ BC <- subset(NEI, fips == "24510")
 pd <- aggregate(BC[c("Emissions")], list(type = BC$type, year = BC$year), sum)
 
 #  Create Plot
+library(ggplot2)
 png('plot3.png', width=480, height=480)
 p <- ggplot(pd, aes(x=year, y=Emissions, colour=type)) +
      geom_point(alpha=.3) +
