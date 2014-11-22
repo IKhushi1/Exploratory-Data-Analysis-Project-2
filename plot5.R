@@ -1,5 +1,5 @@
-NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
-SRC <- readRDS("./exdata-data-NEI_data/Source_Classification_Code.rds")
+NEI <- readRDS("./Exploratory Data Project 2/summarySCC_PM25.rds")
+SRC <- readRDS("./Exploratory Data Project 2/Source_Classification_Code.rds")
 
 
 
