@@ -1,6 +1,6 @@
 ##Plot 2 Project 
 #  Read Data 
-NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
+NEI <- readRDS("./Exploratory Data Project 2/summarySCC_PM25.rds")
 
 #  Create Data
 BC <- subset(NEI, fips == "24510")
